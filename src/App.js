@@ -1,23 +1,20 @@
-import logo from './logo.svg';
-import './App.css';
+import './styles/style_desktop.css';
+import './styles/flex.css'
+import '../src/styles/fontawesome-free-5.12.1-web/css/all.min.css';
+import Home from './Components/Home';
+import Contact from './Components/Contact';
+import { Routes, Route } from "react-router-dom";
+
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+
+    <div className="App flex j_center a_center">
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/contact" element={<Contact />} />
+        </Routes>
     </div>
   );
 }
