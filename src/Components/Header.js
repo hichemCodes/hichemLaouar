@@ -21,6 +21,7 @@ const Header = ()=> {
             <div className="avatar flex j_start">
           
             </div>
+            
 
         </div>
  

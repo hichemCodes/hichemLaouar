@@ -19,7 +19,6 @@ body::-webkit-scrollbar-thumb{
     src:url('../fonts/Audiowide-Regular.ttf')
 }
 
-
 body{
    margin:0px;
    padding:0px;
@@ -28,8 +27,9 @@ body{
    position: relative;
 
 }
-
-
+a {
+    text-decoration: none;
+}
 
 .grad_color{
     background: linear-gradient(to right, #2c3e50, #2980b9);
@@ -449,6 +449,13 @@ height:16.5vh;
     margin-bottom: 35px;
     
 }
+.fa-xmark {
+    color: var(--c_blue);
+    font-size: 1.3rem;
+    position: absolute;
+    top:30px;
+    right: 30px;
+}
 .form_contact{
     width:74%;
 
@@ -531,6 +538,36 @@ height:16.5vh;
     justify-content: center;
     align-items: center;
 }
+.links {
+
+    width: 14vh;
+    position: fixed;
+    top: 50%;
+    right: -3px;
+    min-height: 47vh;
+    transform: translate(-50%,-50%);
+    z-index: 100;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    display: none;
+}
+.links .link-item {
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 0px 10px 0px rgb(0 0 0 / 50%);
+}
+.link-item i {
+    cursor: pointer;
+    font-size: 2rem;
+    color: var(--c_blue);
+}
+
 .App {
     flex-direction: column;
     justify-content: center;

@@ -1,8 +1,14 @@
+import { Link } from "react-router-dom";
 
 const Contact = ()=> {
+
     return (
         <div class="cover flex j-start a_center d_column show_cover">
            <div class="all_def flex j_center a_center d_column">
+                     <Link to="/" >
+                            <i class="fa-solid fa-xmark"></i>
+                     </Link>
+                      
                       <span class="reach-out grad_color ">
 
                          Thanks for taking the time to reach out. <br />
