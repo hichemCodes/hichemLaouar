@@ -33,7 +33,7 @@ const HireMe = ()=> {
                        
                   </div>
                   <div class="foter_register flex d_column j_center a_center">
-                     <span class="rights">© 2022 All Rights Reserved <span class="bolder">| Laouar Mohamed Hichem</span></span> 
+                     <span class="rights">© 2022 All Rights Reserved <span class="bolder">| LAOUAR Hichem</span></span> 
                      <span> Made with  <i class="fas fa-heart "></i> in France  </span>
                   </div>
         </div>
